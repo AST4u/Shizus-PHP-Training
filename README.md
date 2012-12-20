@@ -1,9 +1,10 @@
 # Strings
 
-    ```php
-    $string = "Zeichenkette";
-    $string = 'Literal';
-    echo 'Basis Wissen zu Zeichenketten und Literalen';```
+```php
+$string = "Zeichenkette";
+$string = 'Literal';
+echo 'Basis Wissen zu Zeichenketten und Literalen';
+```
 
 - Strings
     1. Einfaches verketten von Strings - **done**
@@ -11,6 +12,16 @@
     3. Auflösung in Strings
 
 # Array's
+
+```php
+// bis php 5.3:
+$list = array(1,2,3,4,5,6);
+$assoc = array("a" => 1, "b" => 2, "c" => 3);
+
+// ab php 5.4:
+$list = [1,2,3,4,5,6];
+$assoc = ["a" => 1, "b" => 2, "c" => 3];
+```
 
 - Arrays/Listen
     1. Einleitung
