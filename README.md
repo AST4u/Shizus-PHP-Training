@@ -39,7 +39,6 @@ $assoc = ["a" => 1, "b" => 2, "c" => 3];
     3. Manipulation
     4. Interation (loop)
     5. Spezielle Arrays/Listen
-
 - Assoziative Arrays (objekte)
     1. Einleitung
     2. Zugriff
