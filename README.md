@@ -39,4 +39,4 @@ $assoc = ["a" => 1, "b" => 2, "c" => 3];
         2. Schreiben von Werten
         3. Sicheres überprüfen
     4. Interation
-    5. ```$_GET```, ```$_POST```, ```$_SERVER```, ```$_REQUEST``` und ```$argv```
+    5. `$_GET`, `$_POST`, `$_SERVER`, `$_REQUEST` und `$argv`
