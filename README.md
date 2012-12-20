@@ -1,5 +1,13 @@
 # Strings
 
+Strings, zu deutsch Zeichenketten, sind eine Aneinanderreihung von `bytes` die eine vom Menschen
+lesbare Zeichenfolge darstellen. Simpler ausgedrückt, sie speichern Klartext.
+
+In PHP gibt es zwei Arten von `strings`:
+
+- Strings *(oder Zeichenketten)*
+- Literale
+
 ```php
 $string = "Zeichenkette";
 $string = 'Literal';
@@ -40,3 +48,6 @@ $assoc = ["a" => 1, "b" => 2, "c" => 3];
         3. Sicheres überprüfen
     4. Interation
     5. `$_GET`, `$_POST`, `$_SERVER`, `$_REQUEST` und `$argv`
+
+# Funktionen
+
