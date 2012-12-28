@@ -32,12 +32,12 @@ $assoc = ["a" => 1, "b" => 2, "c" => 3];
 ```
 
 - Arrays/Listen
-    1. Einleitung
-    2. Dimensionen
-        1. Einfache Dimensionen
-        2. Mehrfache Dimensionen
+    1. Einleitung - **done**
+    2. Dimensionen - **done**
+        1. Einfache Dimensionen - **done**
+        2. Mehrfache Dimensionen - *recheck*
     3. Manipulation
-    4. Interation (loop)
+    4. Interation (loop) - **done**
     5. Spezielle Arrays/Listen
 - Assoziative Arrays (objekte)
     1. Einleitung
