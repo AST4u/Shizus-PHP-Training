@@ -80,16 +80,29 @@ lesbare Zeichenfolge darstellen. Simpler ausgedrückt, sie speichern Klartext.</
 <li>Arrays/Listen
 
 <ol>
-<li>Einleitung</li>
-<li>Dimensionen
+<li>Einleitung - <strong>done</strong>
+</li>
+<li>Dimensionen - <strong>done</strong>
 
 <ol>
-<li>Einfache Dimensionen</li>
-<li>Mehrfache Dimensionen</li>
+<li>Einfache Dimensionen - <strong>done</strong>
+</li>
+<li>Mehrfache Dimensionen - <strong>done</strong>
+</li>
 </ol>
 </li>
-<li>Manipulation</li>
-<li>Interation (loop)</li>
+<li>Manipulation
+
+<ol>
+<li>Push - <strong>done</strong>
+</li>
+<li>Elemente Löschen</li>
+<li>Sortieren</li>
+<li>Filtern</li>
+</ol>
+</li>
+<li>Interation (loop) - <strong>done</strong>
+</li>
 <li>Spezielle Arrays/Listen</li>
 </ol>
 </li>
@@ -112,6 +125,34 @@ lesbare Zeichenfolge darstellen. Simpler ausgedrückt, sie speichern Klartext.</
 </ol>
 </li>
 </ul><h1>Funktionen</h1>
+
+<div class="highlight"><pre><span class="c1">// Funktionen werden dazu verwendet, um einen Script-Bereich</span>
+<span class="c1">// für das Wiederverwenden und zum Lokalisieren unter einem Namen</span>
+<span class="c1">// zu speichern.</span>
+
+<span class="k">function</span> <span class="nf">myFunction</span> <span class="p">(</span><span class="nv">$parameter1</span><span class="p">,</span> <span class="nv">$parameter2</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nv">$ergebnis</span> <span class="o">=</span> <span class="nv">$parameter1</span> <span class="o">+</span> <span class="nv">$parameter2</span><span class="p">;</span>
+    <span class="k">return</span> <span class="nv">$ergebnis</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nv">$ausgabe</span> <span class="o">=</span> <span class="nx">myFunction</span><span class="p">(</span><span class="s2">"Argument1"</span><span class="p">,</span> <span class="s2">"Argument2"</span><span class="p">);</span>
+</pre></div>
+
+<p>Im Beispiel haben wir 2 Funktions-Parameter, welche dazu dienen, Werte
+aus dem übergeordnetem Kontext in den Lokalen Namensraum der Funktion zu
+übergeben.</p>
+
+<pre><code>**ACHTUNG**: Übergebene Werte sind Kopien und keine Referenzen zum Original,
+wenn nicht Explizit durch '&amp;' impliziert.
+</code></pre>
+
+<p>Im Funktions-Aufbau nennt man Übergabe-Werte "Parameter"
+    - Der Arbeiter erfordert eine Anweisung, einen Parameter als
+      Vorgabe.</p>
+
+<p>Im Funktions-Aufruf nennt man Übergabe-Werte "Argumente"
+    - Der Chef verwendet Argumente um dir klar zu machen,
+      was deine Aufgabe ist.</p>
       </section>
 
     </div>
