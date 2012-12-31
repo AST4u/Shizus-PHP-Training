@@ -37,6 +37,10 @@ $assoc = ["a" => 1, "b" => 2, "c" => 3];
         1. Einfache Dimensionen - **done**
         2. Mehrfache Dimensionen - **done**
     3. Manipulation
+        1. Push - **done**
+        2. Elemente Löschen
+        3. Sortieren
+        4. Filtern
     4. Interation (loop) - **done**
     5. Spezielle Arrays/Listen
 - Assoziative Arrays (objekte)
@@ -50,3 +54,30 @@ $assoc = ["a" => 1, "b" => 2, "c" => 3];
 
 # Funktionen
 
+```php
+// Funktionen werden dazu verwendet, um einen Script-Bereich
+// für das Wiederverwenden und zum Lokalisieren unter einem Namen
+// zu speichern.
+
+function myFunction ($parameter1, $parameter2) {
+    $ergebnis = $parameter1 + $parameter2;
+    return $ergebnis;
+}
+
+$ausgabe = myFunction("Argument1", "Argument2");
+```
+
+Im Beispiel haben wir 2 Funktions-Parameter, welche dazu dienen, Werte
+aus dem übergeordnetem Kontext in den Lokalen Namensraum der Funktion zu
+übergeben.
+
+    **ACHTUNG**: Übergebene Werte sind Kopien und keine Referenzen zum Original,
+    wenn nicht Explizit durch '&' impliziert.
+
+Im Funktions-Aufbau nennt man Übergabe-Werte "Parameter"
+    - Der Arbeiter erfordert eine Anweisung, einen Parameter als
+      Vorgabe.
+
+Im Funktions-Aufruf nennt man Übergabe-Werte "Argumente"
+    - Der Chef verwendet Argumente um dir klar zu machen,
+      was deine Aufgabe ist.
