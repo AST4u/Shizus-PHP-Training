@@ -35,7 +35,7 @@ $assoc = ["a" => 1, "b" => 2, "c" => 3];
     1. Einleitung - **done**
     2. Dimensionen - **done**
         1. Einfache Dimensionen - **done**
-        2. Mehrfache Dimensionen - *recheck*
+        2. Mehrfache Dimensionen - **done**
     3. Manipulation
     4. Interation (loop) - **done**
     5. Spezielle Arrays/Listen

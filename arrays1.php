@@ -45,13 +45,21 @@ $variable = "Wert";
  * Person = [Tiere, Alter, Wohnort]
  */
 
+/*
+ * Jede Dimension wird durch ein neues Array defeniert. Dabei werden
+ * immer ganze Zahlen begonnen: 1. Ebene, 2. Ebene, ...Ebene
+ */
+
 $personen = [
 
 
+    // 1. Dimension
     // $personen[0]
     [
+        // 2. Dimenson (2D Array, oder Value-List)
         // $personen[0][0]
         [
+            // 3. Dimension (3D, oder Matrix [mathematik...])
             // $personen[0][0][0]
             'Katze'
         ],
