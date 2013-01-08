@@ -81,3 +81,4 @@ Im Funktions-Aufbau nennt man Übergabe-Werte "Parameter"
 Im Funktions-Aufruf nennt man Übergabe-Werte "Argumente"
     - Der Chef verwendet Argumente um dir klar zu machen,
       was deine Aufgabe ist.
+
