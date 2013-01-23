@@ -7,16 +7,8 @@
  * To change this template use File | Settings | File Templates.
  */
 
-//Assotiative Arrays
-$shizu = array(
-    'Spiele' => array('WoW', 'Minecraft', 'Osu!'),
-    'Provider' => array('MSN', 'GMX', 'Gmail'),
-    'Katzen' => array('Ellie', 'Rambo')
-);
+printf( '%2$s %1$s', "Hallo", 'Welt');
 
-// Ausgabe der Emailprovider
-$c = sizeof($shizu['Provider']);
-for ($i = 0; $i < $c; $i++) {
-        echo $shizu['Provider'][$i];
-        echo chr(10);
-}
+printf('%0.2f EUR', 100 / 3);
+$resultat = sprintf('%0.2f EUR', 100 / 3);
+
