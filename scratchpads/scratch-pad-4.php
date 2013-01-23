@@ -8,14 +8,14 @@
  */
 
 $shizu = array(
-    array('WoW', 'Minecraft', 'Osu!'),
-    array('MSN', 'GMX', 'Gmail'),
-    array('Ellie', 'Rambo')
+    'Spiele' => array('WoW', 'Minecraft', 'Osu!'),
+    'Provider' => array('MSN', 'GMX', 'Gmail'),
+    'Katzen' => array('Ellie', 'Rambo')
 );
 
 // Ausgabe der Emailprovider
-$c = sizeof($shizu[1]);
+$c = sizeof($shizu['Provider']);
 for ($i = 0; $i < $c; $i++) {
-        echo $shizu[1][$i];
+        echo $shizu['Provider'][$i];
         echo chr(10);
 }
